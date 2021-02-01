@@ -162,7 +162,7 @@ $ ls -a Desktop
 Identify the command, flag, argument, and prompt:
 ----------
 
-Command: Desktop
+Command: ls
 Flag: -a
 Argument: Desktop
 Prompt: $ (The prompt is the symbol that tells you the computer is not currently running a command and is "ready" for input.)
@@ -183,7 +183,7 @@ Follow the instructions line-by-line.
 12. Open a new terminal window. Create a directory called mtec1002. What command did you use?
 ----------
 
-
+mkdir
 
 
 
@@ -193,7 +193,7 @@ Follow the instructions line-by-line.
 ----------
 
 
-
+cd
 
 
 
@@ -210,8 +210,7 @@ Copy and paste the output of pwd below.
 ----------
 
 
-
-
+/c/Users/Alexito/mtech1003
 
 
 ==========
@@ -223,7 +222,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+animals/
 
 
 
@@ -237,8 +236,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
-
+animals/  food/
 
 
 
@@ -252,8 +250,9 @@ Copy and paste the output below.
 ----------
 
 
+animals/  foo/  food/
 
-
+-p flag is Recursive meaning recursively Nest one folder inside another...)
 
 
 ==========
@@ -265,9 +264,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
-
-
+/c/Users/Alexito/mtech1003/foo/bar/baz/qux
 
 
 ==========
@@ -279,9 +276,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
-
-
+/c/Users/Alexito/mtech1003/foo/bar
 
 
 ==========
@@ -293,7 +288,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/c/Users/Alexito/mtech1003/foo/bar/baz/qux
 
 
 
@@ -306,9 +301,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
-
-
+/c/Users/Alexito/mtech1003
 
 
 
