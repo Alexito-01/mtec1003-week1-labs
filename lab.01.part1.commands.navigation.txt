@@ -15,11 +15,41 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-
-
-
-
-
+ '3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Steam/
+ Templates@
+ Videos/
+ anaconda3/
+ ansel/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ source/
 
 ==========
 2.  Type:
@@ -28,11 +58,8 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-
-
-
-
-
+drwxr-xr-x 1 Alexito 197121       0 Nov 12 14:42 '3D Objects'/
+drwxr-xr-x 1 Alexito 197121       0 Nov 12 14:41  AppData/
 
 ==========
 3.  Type:
@@ -42,8 +69,8 @@ $ ls -a Documents
 Copy and paste the first *two lines* of output below.
 ----------
 
-
-
+ ./                                "Assassin's Creed Syndicate"/  'My Videos'@                      'Visual Studio 2019'/
+ ../                                CELSYS/                       'Project CARS 2'/                  WEVR/
 
 
 
@@ -55,16 +82,14 @@ $ ls doesnotexist
 Copy and paste the output below.
 ----------
 
-
-
-
+ls: cannot access 'doesnotexist': No such file or directory
 
 
 ==========
 5.  What key do I press to go to the previous command?
 ----------
 
-
+Up Arrow on the Keyboard
 
 
 
@@ -73,7 +98,11 @@ Copy and paste the output below.
 6.  Name two flags that we used in this exercise.
 ----------
 
+-l(list files as Long Form)
 
+and
+
+-a(list all the file as well as any hidden files)
 
 
 
@@ -82,7 +111,7 @@ Copy and paste the output below.
 7.  What was the main command that we used throughout this exercise?
 ----------
 
-
+ls(List all files)
 
 
 
@@ -91,7 +120,8 @@ Copy and paste the output below.
 8.  What's one an argument that we've so far passed to a command?
 ----------
 
-
+Documents
+doesnotexist
 
 
 
@@ -105,6 +135,7 @@ Copy and paste the output below.
 ----------
 
 
+bash: foo: command not found
 
 
 
@@ -118,6 +149,7 @@ Copy and paste the output below.
 ----------
 
 
+bash: foo: command not found
 
 
 
@@ -130,8 +162,12 @@ $ ls -a Desktop
 Identify the command, flag, argument, and prompt:
 ----------
 
+Command: Desktop
+Flag: -a
+Argument: Desktop
+Prompt: $ (The prompt is the symbol that tells you the computer is not currently running a command and is "ready" for input.)
 
-
+{$ may also be %}
 
 
 Lab 1 / Part 2 - Navigating the File System
